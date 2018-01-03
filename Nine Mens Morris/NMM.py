@@ -39,10 +39,6 @@ class Board(object):
         self.points[destination] = " "
 
     def __str__(self):
-        """
-        Display everything nice and pretty-like.
-        This is an ugly function.
-        """
         s = "\n"
         s+= "    7 [" + self.points["a7"] + "]------[" + self.points["d7"] + \
               "]------[" + self.points["g7"] + "] \n"
